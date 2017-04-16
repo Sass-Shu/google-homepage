@@ -85,33 +85,39 @@ background-image: url("images/bells_grey.png");
     background-repeat:no-repeat;
 }
 
+.squares_icon:hover{
+background-image: url("images/squares_black.png"); 
+}
+
+.bells_icon:hover{
+background-image: url("images/bells_black.png"); 
+}
+
 
 .users_icon{
 background-image: url("images/user.png"); 
-	height: 30px;
+	height: 50px;
     width: 30px;
     background-repeat:no-repeat;
 }
-}
 ul {
     float: right;
+    text-align: right;
     vertical-align: middle;
-    display: inline-block;
-    list-style-type: none;
-    margin: 15;
-    padding: 5;
     padding-left: 30px;
     padding-right: 30px;
     color: #757575;
     text-decoration: none;
-}
+	}
+    
 ul li {    
 	display: inline-block;
+	text-align: center;
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
-	padding: 15px;
-	float: left;
+	padding-right: 15px;
+	padding-right: 15px;
 	font-size: 13px;
 	font-family: arial,sans-serif;
 	color:#757575;
@@ -133,4 +139,20 @@ ul li a:hover {
 	  color:#757575;
     text-decoration: underline;
 
+}
+.ullower {
+  margin: 0;
+  float: left;
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: left;
+	}
+
+.nolia {
+	padding: none;
 }
