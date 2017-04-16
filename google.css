@@ -101,6 +101,7 @@ background-image: url("images/user.png");
     background-repeat:no-repeat;
 }
 ul {
+    display: inline-block;
     float: right;
     text-align: right;
     vertical-align: middle;
@@ -126,6 +127,7 @@ ul li {
 
 }
 ul li a {    
+	display: inline-block;
 	font-size: 13px;
 	font-family: arial,sans-serif;
 	  color:#757575;
@@ -140,19 +142,57 @@ ul li a:hover {
     text-decoration: underline;
 
 }
-.ullower {
-  margin: 0;
-  float: left;
-  position: absolute;
-  height: 30px;
-  line-height: 30px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #efefef;
-  text-align: left;
-	}
+.footerlow {
+	  position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+  	text-align: center;
+  	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	background: #f2f2f2;;
+    text-decoration: none;
+    color:#757575;
+    display: inline-block;
 
-.nolia {
-	padding: none;
 }
+
+.rightfoot {
+	display: inline-block;
+	float: right;
+		font-size: 13px;
+	font-family: arial,sans-serif;
+    text-decoration: none;
+    color:#757575;
+    display: inline-block;
+
+}
+.leftfoot {
+	float: left;
+	display: inline-block;
+    text-decoration: none;
+    color:#757575;
+    display: inline-block;
+}
+
+.fontstuff {
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	background: #f2f2f2;;
+    text-decoration: none;
+    color:#757575;
+    display: inline-block;
+      	padding-left: 15px;
+	padding-right: 15px;
+}
+}
+
