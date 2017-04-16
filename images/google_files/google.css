@@ -1,19 +1,13 @@
-:focus {
-    outline: none;
-}
-input[type=text] {
-  -webkit-appearance: none;
-}
+:focus {outline:none;}
 .button{
   display: inline-block;
-  height: 30px; /*sets height of element*/
-  line-height: 30px;
-  min-width: 142px;
+  height: 50px; /*sets height of element*/
   background-color: #f2f2f2; /*sets the background of this element (here a solid colour)*/
   -webkit-transition: all 0.6s; /*sets a transition (for hover effect)*/
   padding-left: 20px; /*sets 'padding'*/
   padding-right: 20px; /*sets 'padding'*/
   color:#757575;
+  line-height: 50px; /*for this, it sets vertical alignment*/
   font-family: arial,sans-serif;
   font-size: 13px;
   font-weight: bold;
@@ -21,40 +15,30 @@ input[type=text] {
   border-radius: 2px;
   text-align: center;
 }
-.centrebox {
-    display: block;
-    text-align: -webkit-center;
-}
-
 .button:hover {
 	border: 1px solid #c9c9c9;
 	color: #636363;
 	box-shadow: 1px 1px 1px #f2f2f2;
 }
-.searchline {
+.seachbox {
 	outline: none;
-	align-self: center;
-    text-align: left;
-    border: none;
-    color:grey;
+    text-align: center;
+
 }
-.seachline:focus {
+.seachbox:focus {
 	outline: none;
     text-align: center;
      color:#757575;
 
 }
 .searchborder {
-    display: flex;
-  	justify-content: center;
-    text-align: -webkit-center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #f2f2f2;
 	height: 44px;
     width: 428px;
-    outline: none;
-  	box-shadow: 0.5px 0.5px 2px #848484;
+  text-align: center;
 }
 .logo {
     display: block;
@@ -68,60 +52,42 @@ input[type=text] {
     margin-left: auto;
     margin-right: auto;
 	height: 40px;
-    width: 40px;}
-
-.squares_icon{
-background-image: url("images/squares_grey.png"); 
-	height: 30px;
-    width: 30px;
-    background-repeat:no-repeat;
+    width: 40px;
 }
-
-
-.bells_icon{
-background-image: url("images/bells_grey.png"); 
-	height: 30px;
-    width: 30px;
-    background-repeat:no-repeat;
-}
-
-
-.users_icon{
-background-image: url("images/user.png"); 
-	height: 30px;
-    width: 30px;
-    background-repeat:no-repeat;
-}
+.user_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 50px;
+    width: 50px;
 }
 ul {
-    float: right;
-    vertical-align: middle;
     display: inline-block;
+    padding: 10;
     list-style-type: none;
     margin: 15;
-    padding: 5;
+    padding: 15;
     padding-left: 30px;
     padding-right: 30px;
-    color: #757575;
+    float: right;
+       color: #757575;
     text-decoration: none;
 }
 ul li {    
-	display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    vertical-align: middle;
-	padding: 15px;
+	#display: block;
+	padding: 5px;
 	float: left;
 	font-size: 13px;
 	font-family: arial,sans-serif;
 	  color:#757575;
 	     color: #FFFFFF;
     text-decoration: none;
-    background-position: center; 
 
 }
 ul li a {    
 	font-size: 13px;
+	vertical-align: middle;
+    height:200px;
 	font-family: arial,sans-serif;
 	  color:#757575;
     text-decoration: none;
@@ -129,7 +95,6 @@ ul li a {
 }
 ul li a:hover {    
 	font-size: 13px;
-	
 	font-family: arial,sans-serif;
 	  color:#757575;
     text-decoration: underline;
